@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Playing Using Multitouch</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="my_first_ping_pong">My first ping pong game</string>
+    <string name="my_first_multitouch_game">My first multitouch game</string>
+    <string name="my_multitouch_ping_pong_game">My multitouch ping pong game</string>
+    <string name="title_activity_my_first_ping_poing">My First Ping Poing Activity</string>
+    <string name="title_activity_my_first_multitouch">My First Multitouch Activity</string>
+    <string name="title_activity_my_multitouch_ping_pong">My Multitouch Ping Pong Activity</string>
+</resources>

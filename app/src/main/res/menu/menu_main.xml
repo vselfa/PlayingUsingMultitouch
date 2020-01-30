@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="selfa.v.playingusingmultitouch.MainActivity">
+
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="100"
+        android:title="@string/home"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/myFirstPingPongGame"
+        android:orderInCategory="100"
+        android:title="@string/my_first_ping_pong"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/myFirstMultitouchGame"
+        android:orderInCategory="100"
+        android:title="@string/my_first_multitouch_game"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/myMultitouchPingPongGame"
+        android:orderInCategory="100"
+        android:title="@string/my_multitouch_ping_pong_game"
+        app:showAsAction="never" />
+
+
+
+</menu>

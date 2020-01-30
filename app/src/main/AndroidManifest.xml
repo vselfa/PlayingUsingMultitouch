@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="selfa.v.playingusingmultitouch">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/multitouch2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ping_pong2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyFirstPingPongActivity"
+            android:label="@string/title_activity_my_first_ping_poing" />
+        <activity
+            android:name=".MyFirstMultitouchActivity"
+            android:label="@string/title_activity_my_first_multitouch" />
+        <activity
+            android:name=".MyMultitouchPingPongActivity"
+            android:label="@string/title_activity_my_multitouch_ping_pong" />
+    </application>
+
+</manifest>
